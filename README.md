@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DioStiker.github.io/rsschool-cv/cv
