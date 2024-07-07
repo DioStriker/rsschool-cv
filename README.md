@@ -1,1 +1,0 @@
-https://DioStriker.github.io/rsschool-cv/
