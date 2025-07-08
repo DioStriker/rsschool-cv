@@ -37,5 +37,6 @@ I graduated from Saint-Petersburg University of Civil Aviation in 2006 with Bach
 
 ## EDUCATION
 
-Secondary School
+High School
+
 University
