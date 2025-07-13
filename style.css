@@ -121,3 +121,25 @@ h2 {
     letter-spacing: 4px;
     line-height: 40px;
 }
+
+.profile-img {
+    height: 215px;
+    width: 196px;
+    border-radius: 15%;
+    box-shadow: 2px 2px 5px gray;
+    border: 2px solid white;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-transform: uppercase;
+    padding: 0 0 0 50px;
+    color: rgb(90, 90, 90);
+}
+
+.subtitle {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
