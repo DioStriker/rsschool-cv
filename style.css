@@ -1,47 +1,49 @@
 @font-face {
-    font-family: Quicksand;
-    src: url("assets/fonts/Quicksand/static/Quicksand-Regular.ttf");
-    font-style: normal;
-    font-weight: normal;
+  font-family: Quicksand;
+  src: url("assets/fonts/Quicksand/static/Quicksand-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @media (min-width: 769px) {
-    .section {
-        width: 50%;
-    }
+  .section {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
+  .section {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
-    .nav-list {
-        justify-content: space-around;
-    }
+  nav ul {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 500px) {
-    .nav-list {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-    .nav-list li {
-        display: flex;
-        border-bottom: 1px solid rgb(99, 99, 99);
-        border-top: 1px solid rgb(207, 207, 207);
-        width: 100%;
-        justify-content: center;
-    }
-    .nav-list li:first-child {
-        border-top: none;
-    }
-    .nav-list li:last-child {
-        border-bottom: none;
-    }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  nav ul li {
+    display: flex;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    border-top: 1px solid rgb(207, 207, 207);
+    width: 100%;
+    justify-content: center;
+  }
+  nav ul li:first-child {
+    margin-top: -20px;
+    border-top: 1px solid rgb(99, 99, 99);
+  }
+  nav ul li:last-child {
+    margin-bottom: -20px;
+    border-bottom: 1px solid rgb(99, 99, 99);
+  }
 }
 
 * {
@@ -83,14 +85,14 @@ h2 {
     padding: 0;
 }
 
-.nav-list {
+nav ul {
     display: flex;
     flex-flow: row wrap;
     list-style-type: none;
     justify-content: flex-end;
 }
 
-.nav-link {
+nav ul li a {
     padding: 0 15px;
     line-height: 50px;
     font-size: 20px;
@@ -99,7 +101,7 @@ h2 {
     transition: color 0.3s;
 }
 
-.nav-link:hover {
+nav ul li a:hover {
     color: rgb(90, 90, 90);
     background-color: rgb(230, 230, 26);
     border-radius: 10px;
