@@ -193,3 +193,26 @@ color: red;
     height: 25px;
     background-repeat: no-repeat;
 }
+
+.location-icon::before {
+    content: "";
+    background-image: url(assets/icons/location.svg);
+}
+
+.phone-icon::before {
+    content: "";
+    background-image: url(assets/icons/phone.svg);
+}
+
+.discord-icon::before {
+    content: "";
+    background-image: url(assets/icons/discord.svg);
+}
+
+.decoration::before {
+    content: "";
+    margin: 14px 0 0 0;
+    width: 12px;
+    height: 2px;
+    border: 1px solid rgb(85, 96, 107);
+}
