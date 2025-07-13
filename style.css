@@ -104,3 +104,20 @@ h2 {
     background-color: rgb(230, 230, 26);
     border-radius: 10px;
 }
+
+.main {
+    color: rgb(48, 52, 56);
+    line-height: 30px;
+    margin: 0 0 auto 0;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    font-size: 36px;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
